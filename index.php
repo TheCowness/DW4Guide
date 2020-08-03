@@ -9,30 +9,47 @@
 	<meta name="Keywords" content="Speedrun, Speed Run, Dragon Warrior IV, Dragon Quest IV: Chapters of the Chosen, Dragon Warrior, Dragon Quest, Guide, Help, World Record">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet" \>
 	<script src="jquery-1_11_2_min.js"></script>
 	<script src="bootstrap/js/bootstrap.bundle.js"></script>
-	<link href="bootstrap/css/bootstrap.css" rel="stylesheet" \>
+	<script src="https://kit.fontawesome.com/9723a9d366.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <!--
-Unofficial DW4 Leaderboard 5/17/2019 
+Unofficial DW4 Leaderboard 5/28/2020
 Ranking numbers come from SRC: https://www.speedrun.com/dw4
-1. NESCardinality - 6:11:28 (SRC)
-2. SUMDeaner - 6:24:49 (SRC)
-3. TheCowness - 6:27:54 (SRC)
-4. HighSpirits - 6:51:50 (SRC)
-5. EvilAsh25 - 6:53:20 (SRC)
-   Twitchpoppop - 07:09:31 - http://www.speedrunslive.com/races/game/#!/dw4/1
-6. Everhate - 7:17:41 (SRC)
-   dawarwiz - 7:24:38 (According to his LiveSplit here https://www.twitch.tv/videos/431873852)
-7. Vaeluv - 7:42:43 (SRC)
-   Toad22484 - 7:53:18 - https://www.twitch.tv/videos/419629357
-8. Zombietraine - 8:01:21 (SRC)
-9. Shiner - 8:16:54 (SRC)
-   Haktical - 9:01:17 - https://www.twitch.tv/videos/405382094
-   Joshy_D - "12.5 hours" - https://twitter.com/therealjoshyd/status/739589777209495553
-   Lavitz951 - 12:59:21 - https://www.twitch.tv/videos/403546399 (not a highlight; video'll expire soon)
+ 1. SUMDeaner - 5:59:35 (SRC)  (waaaaow)
+ 2. TheCowness - 6:04:55 (SRC)
+ 3. NESCardinality - 6:11:28 (SRC)
+ 4. Haktical - 6:24:15 (SRC)
+ 5. Gyre - 6:46:01 (SRC)
+ 6. HighSpirits - 6:51:50 (SRC)
+ 7. EvilAsh25 - 6:53:20 (SRC)
+    Twitchpoppop - 6:52:18 https://twitter.com/pop_twitch/status/1250734102510100481 (No VOD; stream connection issues)
+ 8. Shiner - 7:01:25 (SRC)
+    dawarwiz - 7:17:16 (According to his LiveSplit here https://www.twitch.tv/videos/477428279 (Video expired))
+ 9. Everhate - 7:17:41 (SRC)
+10. Vaeluv - 7:42:43 (SRC)
+11. Toad22484 - 7:53:18 (SRC) - https://www.twitch.tv/videos/419629357
+12. Zombietraine - 8:01:21 (SRC)
+    Joshy_D - "12.5 hours" - https://twitter.com/therealjoshyd/status/739589777209495553
+    Lavitz951 - 12:59:21 - https://www.twitch.tv/videos/403546399 (run wasn't highlighted; video has expired)
 -->
+<div class="bodybgimage"></div>
+<div id="headerSlideContainerContainer">
+	<div id="headerSlideContainer">
+		<div id="headerSlideContent">
+			<div class="row">
+				<div class="col-sm-12">
+					<h4>Dragon Warrior IV Speedrunning Guide</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12"><button class="expand-all expand-all-header">Expand/Collapse All Details</button></div>
+			</div>
+		</div>
+	</div>
+</div>
 <div class="container guide-container">
 	<div class="row">
 		<div class="col-sm-12">
@@ -41,16 +58,19 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	<div class="row">
 		<div class="col-sm-12">
-			<h3>In Progress; last updated <?php echo date("m/d/Y", filemtime(__FILE__)); ?></h3><br>
+		<!--- Commending this code out because I'm just updating the unofficial leaderboard...
+			<h3>Last Updated <?php echo date("m/d/Y", filemtime(__FILE__)); ?></h3><br>
+		--->
+			<h3>Last Updated 11/18/2019</h3><br>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-sm-12">
-			<h6>Status: Route First Draft complete, Appendices started, Second draft and layout design revisions in progress.</h6><br>
+			<h6>Status: More or less in a "1.0" state.  Awaiting runner feedback to perform any more heavy modifications.</h6><br>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-12 expand-all">Expand/Collapse All Details</div>
+		<div class="col-sm-12"><button class="expand-all">Expand/Collapse All Details</button></div>
 	</div>
 	<!--
 	
@@ -110,6 +130,51 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 		</div>
 	</div>
 	
+	<div class="row">
+		<div class="col-sm-12">
+			<h3>How to Read This Guide</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="step col-sm-12">These plain-text bullets will contain very basic instructions on what you need to do to complete the run.  If you click them, details will expand below.  Bullets and detail boxes may also contain <a href="#" data-toggle="tooltip" title="Tooltips will generally contain in-depth details that aren't neccesarily helpful to someone attempting this speedrun, but may satisfy a reader's curiosity about a meaningless statistic or explain why the segment is routed the way it is.  Tooltips may also provide author commentary specific to a sentence in a detail box that doesn't pertain to the entire segment.">Tooltips (hover/tap here)</a> that provide deeper details or specific commentary.</div>
+	</div>
+	<div class="detail-container">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="details">
+				Yellow detail boxes will add more explanation for what you're doing and why.  To make it through your first run, you'll at minimum want to read these detail boxes, but the commentary and alternate strats (see below) can wait until you know what you're doing.
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="alt-strat">
+				Green "alt-strat" boxes explain alternative options you might prefer over the main route.  They're often safer and slower strats, particularly strats with a higher consistency rate that you might use in a "no-reset" run, such as for a race or a marathon performance, or simply if you aren't targeting a world record time.  As long as this run is, you can incorporate several of these slower, but more consistent, strategies and still get a very respectable time in this game.
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="aggro-strat">
+				Sort of the opposite of the above, the red "aggro strat" boxes will detail strategies that you should not use unless you're willing to reset the run over a small potential time save.  These are risky strats that are not recommended until you have a good grasp on the segment, or if your run has fallen behind already and you need to make up some time.
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="commentary">
+				Blue commentary boxes can provide anything from trivia to anecdotes, and will rarely help you speedrun the game.  Where the tooltips might break down a target gold amount into an itemized list, commentary trivia usually lists statistics such as the odds of getting into a fight on a specific walk, which might be nice to know but ultimately won't affect any of your decisions.
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="todo">
+				Finally, the light-colored "todo" boxes are basically notes to myself reminding me of things I want to research some day.  I went back and forth on to whether I wanted these to be visible, and ultimately decided to show them, because it gives the reader an idea of some places that small optimizations could still be made.
+			</div>
+		</div>
+	</div>
+	</div>
 	
 	
 	<div class="row">
@@ -130,16 +195,11 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 			<br>
 			A one-character hero name is optimal, but using a slightly longer name doesn't add on too much time.  Any time the hero's name comes up in the field, you'll lose one frame per extra character, which adds up a bit with all of the treasure chests you open, items you use and buy, each of the hero's level ups, etc.  Fortunately, the hero's name is never mentioned in the first half of the game, and during combat (except level ups/item drops), all text is printed instantly instead of one character per frame, so no time is lost during combat. As a rough estimate, I'd say using a 4-5 character name costs you less than a minute, but it's a much more substantial time loss than the hero's gender.<br>
 			<br>
-			The hero's gender doesn't affect the run much, except for <a href="#" data-toggle="tooltip" title="Celia tells you she's &quot;always thought of you as a little sister&quot; and costs you over 65 frames (one frame per 65 text characters, plus a few more frames to scroll each line of text).">one sentence of text</a> in the beginning of Chapter 5 that doesn't show up if you're male.  The game has very few <a href="#" data-toggle="tooltip" title="Shout-outs to the sentence &quot;Solo searched the ground beneath feet [sic]&quot; (whose feet?!) and a few similar sentences that just omit the pronoun instead of using a unisex pronoun.">gendered pronouns</a> in it, so you don't have to worry about the length of "he" vs "she".  In total, the time lost by picking a female hero over a male hero is estimated to be less than two seconds.<br>
+			The hero's gender doesn't affect the run much, except for <a href="#" data-toggle="tooltip" title="Celia tells you she's &quot;always thought of you as a little sister&quot; and costs you over 65 frames (one frame per 65 text characters, plus a few more frames to scroll each line of text).">one sentence of text</a> in the beginning of Chapter Five that doesn't show up if you're male.  The game has very few <a href="#" data-toggle="tooltip" title="There are a few messages such as &quot;Solo searched the ground beneath feet [sic]&quot; (whose feet?!) that just omit the pronoun instead of using a unisex pronoun.">gendered pronouns</a> in it, so you don't have to worry about the length of "he" vs "she".  In total, the time lost by picking a female hero over a male hero is estimated to be less than two seconds.<br>
 			<br>
-			"Message Speed" is better-described as "Battle Speed", because it doesn't affect the speed at which text is printed at all.  As you move from Message Speed 1 through Message Speed 7, the game adds an increasingly longer delay between messages displayed in battle.  On Message Speed 8, the game will stop completely and wait for you to press A before displaying the next message ("Manual Message Speed").  If you mash A quickly enough, Message Speed 8 is a little bit faster than Message Speed 1, but you probably don't want to mash A as quickly as possible for 6-8 straight hours.  If turbo controllers were allowed, Message Speed 8 would be the fastest (Battles would be 5-10% faster), but without turbo, you're probably saving time using Message Speed 1.
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-12">
-			<div class="todo">
-				TODO: Time message speed 1 vs 8 thoroughly.
+			"Message Speed" is better-described as "Battle Speed", because it doesn't affect the speed at which text is printed at all.  As you move from Message Speed 1 through Message Speed 7, the game adds an increasingly longer delay between messages displayed in battle.  On Message Speed 8, the game will stop completely and wait for you to press A before displaying the next message ("Manual Message Speed").  If you mash A quickly enough, MS8 is a little bit faster than MS1, but you probably don't want to mash A as quickly as possible for 6-8 straight hours.  If turbo controllers were allowed, MS8 would be the fastest (Battles would be 5-10% faster), but without turbo, it really comes down to player preference.<br>
+			<br>
+			If you do want to use Message Speed 8, note that it saves more time when you're running from fights than when you're fighting.  Use of a turbo controller would still put MS8 as faster than MS1 when fighting, but at a <a href="#" data-toggle="tooltip" title="I did some scripted timing with 6Hz mashing speeds, but a human focusing on mashing should be closer to 10Hz.">decent human mashing rate</a> you actually lose time fighting some battles on MS8 over MS1.  I recommend switching message speeds (press Select during combat) to MS1 after picking up the Sword of Malice in Chapter One, and swapping back to MS8 after reaching Frenor in Chapter Two.  That's the longest section of the run where you're fighting (almost) every battle you encounter.
 			</div>
 		</div>
 	</div>
@@ -185,14 +245,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="details">
-			We want it to become night time right when we arrive at Izmit, and walking on the castle tiles on the overworld will progress time without triggering random encounters.  Unfortunately, there's some RNG involved with whether time passes when you take a step, but 70 steps will usually make it turn night within a couple steps of town.  Time does progress when you step to enter town, so if it's not night by the time you're adjacent to the town, you can either take extra steps in the grass and risk an encounter, or risk the timeloss of entering and exiting the town once or twice.
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-12">
-			<div class="todo">
-				TODO: Look up the exact % chance that taking a step does not progress time, and add it here in a tooltip.
+			We want it to become night time right when we arrive at Izmit, and walking on the castle tiles on the overworld will progress time without triggering random encounters.  Unfortunately, there's <a href="#" data-toggle="tooltip" title="There's a 1/32 chance of time not passing.">some RNG involved</a> with whether time passes when you take a step, but <a href="#" data-toggle="tooltip" title="54 steps to Izmit + 70 steps on the castle = 120 steps to night + 4 extra steps, should be about a 49% chance of not needing any extra steps.  Two more steps makes it 83%.">70 steps</a> will usually make it turn night within a couple steps of town.  Time does progress when you step to enter town, so if it's not night by the time you're adjacent to the town, you can either take extra steps in the grass and risk an encounter, or risk the timeloss of entering and exiting the town once or twice.
 			</div>
 		</div>
 	</div>
@@ -217,6 +270,13 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 		<div class="col-sm-12">
 			<div class="details">
 			Take any encounter you get, and attack yourself until you're dead.  Stumps and babbles are the best, but even a single Slime will kill you pretty quickly.  On the last turn of the fight, if you think Ragnar isn't going to get a turn before he dies, attack the first enemy for faster menuing.  Rats and babbles will almost always go first, stumps should always go last, and everything else is iffy.
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="todo">
+				TODO: There are two encounter zones out here that have the same monsters (second starts two tiles east of the sign).  Does one have a more favorable distribution of those monsters than the other?
 			</div>
 		</div>
 	</div>
@@ -337,7 +397,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table">
+			<table class="table table-responsive">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -408,6 +468,13 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 			</div>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="alt-strat">
+				Note: If you are using Message Speed 8, press Select during combat and switch to Message Speed 1 until you reach Frenor.
+			</div>
+		</div>
+	</div>
 	<div class="col-sm-12">
 		<div class="row">
 			<div class="details">
@@ -431,7 +498,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Defeat Saro's Shadow (250 HP/42 HP)</div>
+		<div class="step col-sm-12">Defeat Saro's Shadow (250 HP/42 HP).</div>
 	</div>
 	<div class="detail-container">
 	<div class="row">
@@ -579,6 +646,11 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 			Equip Cristo's copper sword (Equip -> Cristo -> Up, A, B, B)
 			</div>
 		</div>
+		<div class="col-sm-12">
+			<div class="aggro-strat">
+			Once you have a handle on the upcoming grind and the Chameleon Humanoid fight, you can consider selling Alena's Feather Hat for a Thorn Whip.  This will give her enough attack power to reliably one-shot most enemies in the grind, though the Humanoid fight will be a little more dangerous.  If you do sell the Feather Hat, buy a Wooden Hat for Alena once you reach Frenor (selling the Thorn Whip in addition to what you usually sell).
+			</div>
+		</div>
 	</div>
 	</div>
 	<div class="row">
@@ -602,7 +674,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 			</div>
 		</div>
 		<div class="col-sm-4">
-			<table class="table">
+			<table class="table table-responsive">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -662,6 +734,11 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+		</div>
+		<div class="col-sm-12">
+			<div class="aggro-strat">
+			If you sold the Feather Hat for the Thorn Whip, Alena's role stays about the same but Cristo is a little less important.  He should attack Kaskos Hoppers and the 10 HP enemies, hoping for good rolls, but if you don't think his attacks will speed up the fight, you can have him parry or heal.
+			</div>
 		</div>
 	</div>
 	</div>
@@ -724,10 +801,10 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="row ">
 		<div class="col-sm-12">
 			<div class="details">
-				This boss is pretty safe as long as Cristo isn't killed or put to sleep on turn one.  Note that the Rabidhounds do always spawn with their maximum HP, but besides that they're the same Rabidhounds you encounter outside.  The Chameleon Humanoid has a pretty strong physical attack, which has a 1/9 chance of putting the target to sleep, and he'll cast Heal on himself or on the hounds if they fall <a href="#" data-toggle="tooltip" title="These threshhold(s) needs more testing; I've seen him heal himself at 19/40 HP, but he doesn't heal the Rabidhounds until they drop under 1/3 HP.  If Icebolt hits a Rabidhound for max damage (16), it'll barely be knocked into range to be healed.">into low HP</a> a maximum of two times.  Fortunately, the Humanoid is fast enough (<a href="#" data-toggle="tooltip" title="The same as a Metal Slime!">50 agility</a>) that he's guaranteed to go first, so it's easy to plan around the Heal thresholds without him unexpectedly taking his action out of order.<br>
+				This boss is pretty safe as long as Cristo isn't killed or put to sleep on turn one.  Note that the Rabidhounds do always spawn with their maximum HP, but besides that they're the same Rabidhounds you encounter outside.  The Chameleon Humanoid has a pretty strong physical attack, which has a 1/9 chance of putting the target to sleep, and he'll cast Heal on himself or on the hounds if they fall <a href="#" data-toggle="tooltip" title="These threshhold(s) needs more testing; I've seen him heal himself at 19/40 HP, but he doesn't heal the Rabidhounds until they drop under 1/3 HP.  If Icebolt hits a Rabidhound for max damage (16), it'll barely be knocked into range to be healed.">into low HP</a> a maximum of two times.  Fortunately, the Chameleon Humanoid is fast enough (<a href="#" data-toggle="tooltip" title="The same as a Metal Slime!">50 agility</a>) that he's guaranteed to go first, so it's easy to plan around the Heal thresholds without him unexpectedly taking his action out of order.<br>
 				<br>
 				The fight should look like this:<br>
-				<table class="table">
+				<table class="table table-responsive">
 					<tr>
 						<td>Round</td>
 						<td>Alena</td>
@@ -739,7 +816,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 						<td>1</td>
 						<td>Attack Rabidhound A</td>
 						<td>Upper Alena</td>
-						<td>Sap Humanoid</td>
+						<td>Sap Chameleon Humanoid</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -751,10 +828,10 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 					<tr>
 						<td>3</td>
-						<td>Attack Humanoid</td>
+						<td>Attack Chameleon Humanoid</td>
 						<td>Heal or Upper</td>
 						<td>Icebolt Rabidhound B</td>
-						<td>Alena attacks Humanoid so he doesn't heal Rabidhound B turn 4.  If Cristo doesn't need to heal (Humanoid attacked Alena turn 2), consider having all three characters attacking(/Icebolting) Rabidhound B to skip round 4.</td>
+						<td>Alena attacks Chameleon Humanoid so he doesn't heal Rabidhound B turn 4.  If Cristo doesn't need to heal (Chameleon Humanoid attacked Alena turn 2), consider having all three characters attacking(/Icebolting) Rabidhound B to skip round 4.</td>
 					</tr>
 					<tr>
 						<td>4</td>
@@ -765,27 +842,27 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 					<tr>
 						<td>5+</td>
-						<td>Attack Humanoid</td>
-						<td>Attack Humanoid</td>
-						<td>Icebolt Humanoid</td>
-						<td>Repeat until Humanoid dies.</td>
+						<td>Attack Chameleon Humanoid</td>
+						<td>Attack Chameleon Humanoid</td>
+						<td>Icebolt Chameleon Humanoid</td>
+						<td>Repeat until Chameleon Humanoid dies.</td>
 					</tr>
 				</table>
 				<br>
-				Ideally the fight takes 4-5 rounds, but damage rolls, the Humanoid's resistance to Icebolt, and the Humanoid's SleepHit can mess things up a bit.  The general idea is to avoid knocking the Rabidhounds under 1/3 HP so that the Humanoid doesn't heal, but if he does heal, he's not attacking you, so there's a silver lining there.  If Cristo gets killed or put to sleep before he casts Upper on Alena, you're probably going to lose the fight.  If Brey dies before casting Sap, the fight will be slow, but as long as Upper goes off you should survive.
+				Ideally the fight takes 4-5 rounds, but damage rolls, the Chameleon Humanoid's resistance to Icebolt, and the Chameleon Humanoid's SleepHit can mess things up a bit.  The general idea is to avoid knocking the Rabidhounds under 1/3 HP so that the Chameleon Humanoid doesn't heal, but if he does heal, he's not attacking you, so there's a silver lining there.  If Cristo gets killed or put to sleep before he casts Upper on Alena, you're probably going to lose the fight.  If Brey dies before casting Sap, the fight will be slow, but as long as Upper goes off you should survive.
 			</div>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="aggro-strat">
-				If your chapter one sucks, you can try to save a minute or so by trying to fight this boss without Upper, but in my experience you only have about a 30% success rate without it.  Grinding from Brey's third level to Cristo's fourth takes about two minutes, but you still need to get some gold after the boss, so you'll have to take an extra fight or so outside Frenor.<br>
+				If your chapter one was slow, you can try to save a minute or so by trying to fight this boss without Upper, but <a href="#" data-toggle="tooltip" title="I've never scripted this fight, but I've tried it about a dozen or so times in my own bad runs.">in my experience</a> you only have about a 30% success rate without it.  Grinding from Brey's third level to Cristo's fourth takes about two minutes, but you'll need to make up the missing gold and/or EXP after the boss, so you'll have to take an extra fight or two outside Frenor.<br>
 				<br>
 				Without Upper, the fight should look like this:<br>
 				1) Attack Rabidhound A, Attack Rabidhound A, Icebolt Rabidhound A (Rabidhound A dies)<br>
 				2) Attack Rabidhound B, Heal, Sap Chameleon Humanoid<br>
 				3) Attack Rabidhound B, Heal, Icebolt Rabidhound B (Rabidhound B dies)<br>
-				4) Attack Humanoid, Heal or attack, Icebolt Humanoid (repeat until Humanoid dies)<br>
+				4) Attack Chameleon Humanoid, Heal or attack, Icebolt Chameleon Humanoid (repeat until Chameleon Humanoid dies)<br>
 				<br>
 				It sounds easy enough, but if anyone's killed or put to sleep, it's over.  Alternatively, you could try the same strat as with Upper, but have Cristo pre-emptively heal himself on turn one instead of casting Upper.  That strat's going to be slower if it succeeds, but might ultimately be safer.
 			</div>
@@ -793,8 +870,21 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	<div class="row">
 		<div class="col-sm-12">
+			<div class="aggro-strat">
+				With the Thorn Whip, the fight should look like this:<br>
+				1) Attack Rabidhound A, Upper Alena (or Parry if level 3), Icebolt Rabidhound A (Rabidhound A dies)<br>
+				2) Attack Rabidhound B, Heal, Icebolt Rabidhound B (Rabidhound B dies)<br>
+				3) Attack Rabidhound B, Heal, Sap Chameleon Humanoid<br>
+				4) Attack Chameleon Humanoid, Heal or attack, Icebolt Chameleon Humanoid (repeat until Chameleon Humanoid dies)<br>
+				<br>
+				If the Rabidhounds aren't killed from an Alena + Icebolt combo, repeat the previous turn.  The Chameleon Humanoid will heal them, so you'll take less damage on the following turn.
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
 			<div class="commentary">
-				The last thing to mention is that this fight is flagged to have a 100% chance of dropping an item, so make sure you kill the Humanoid last, as he drops Lifeforce Nuts, but the Rabidhounds just drop a Wing of the Wyvern.
+				The last thing to mention is that this fight is flagged to have a 100% chance of dropping an item, so make sure you kill the Chameleon Humanoid last, as he drops Lifeforce Nuts, but the Rabidhounds just drop a Wing of the Wyvern.
 			</div>
 		</div>
 	</div>
@@ -814,13 +904,13 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Get Alena to level 6 (100 EXP) before entering Frenor.</div>
+		<div class="step col-sm-12">Get Alena to level 6 (50 EXP) before entering Frenor.</div>
 	</div>
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="details">
-			This grind only takes like three battles in Frenor's enconter zone.  Run straight north until you get into the hills to get out of Tempe's encounter zone.<br>
+			This grind only takes like three battles in Frenor's enconter zone.  Run straight north until you get into the hills to get out of Tempe's encounter zone.  Eight total enemies (6-7 EXP each) should level up Alena.<br>
 			<br>
 			You can fight just about anything in this zone, but run from groups of 3+ Blazeghosts.  Cast Upper on Alena if there are 3-4 enemies or more.  Never attack Blazeghosts or they'll split (Use Icebolt).  Poison Toadstools can poison you, but don't worry about it.  Be slightly wary of Brahmirds, because they will rarely do a powerful ramming attack <a href="#" data-toggle="tooltip" title="I don't know the parameters or odds of this happening, but someone in my chat once (credible source I know) told me it only happens when they're low.  It seems really rare, but lately I burst them down to avoid it.">at low HP</a>.  Brahmirds also rarely drop strength seeds, so always kill them last.  You should also watch out for the formation of five Carnivore Plants, because they like to summon Healers, and if Brey dies you have to keep the healers clear to kill the plants.  Start this fight out cautiously, casting Upper on Alena, Cristo, and maybe Brey as well.<br>
 			<br>
@@ -912,7 +1002,9 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 			<br>
 			If you're short on gold or if you bailed on the grind due to someone dying, sell Cristo's Copper Sword.  You'll have to give up his armor later, but that's less important than Alena hitting level 6.<br>
 			<br>
-			Obviously, if you got any wings or herbs to drop from monsters, you don't need to buy as many here.  You can sell any other items you picked up, such as the leather hat from Prank Gophers or fairy water from Blazeghosts.
+			Obviously, if you got any wings or herbs to drop from monsters, you don't need to buy as many here.  You can sell any other items you picked up, such as the leather hat from Prank Gophers or fairy water from Blazeghosts.<br>
+			<br>
+			If you sold the Feather Hat for the Thorn Whip at Serene, sell the Thorn Whip at this time and buy a Wooden Hat for Alena.
 			</div>
 		</div>
 	</div>
@@ -934,9 +1026,16 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Grab the Golden Bracelet from the southern cave.</div>
+		<div class="step col-sm-12">Grab the Golden Bracelet from the southern cave and deathwarp.</div>
 	</div>
 	<div class="detail-container">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="alt-strat">
+			Note: If you want to use Message Speed 8 and previously changed to Message Speed 1 during the Loch Tower grind, press Select and change it back to Message Speed 1 during the next battle you flee from.
+			</div>
+		</div>
+	</div>
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="details">
@@ -980,6 +1079,13 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 			</div>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="alt-strat">
+			If you're planning on doing the Metal Slime grind and have enough extra gold, purchase a Fairy Water.  You'll use it when you walk from Frenor back to the golden bracelet cave.  You'll dodge one or two encounters with it, but it's <a href="#" data-toggle="tooltip" title="If it only dodges one encounter, you maybe save a second or two?  But it also completely prevents worse-case scenarios.">not enough of a time save</a> to make a special trip to pick up the Fairy Water.
+			</div>
+		</div>
+	</div>
 	</div>
 	<div class="row">
 		<div class="step col-sm-12">Wing to Santeem and walk on the castle until night.</div>
@@ -1013,9 +1119,23 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Get the Birdsong Nectar.</div>
+		<div class="step col-sm-12">Wing to the Bazaar and get the Birdsong Nectar.</div>
 	</div>
 	<div class="detail-container">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="centered-image-container">
+			<img src="images/DW4_Ch2_Birdsong_Pathing.png" style="max-width:500px;" />
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="commentary">
+			Note, once you cross the first dark red line on the right side of the map above, you pass into a zone with tougher encounters.  The highlighted path minimizes both the number of encounters you'll get total during this walk, and the number of encounters in this zone.  The red line on the left side indicates where you overlap Santeem's encounter zone for three tiles.  Make sure you walk through here, as those encounters are trivial.
+			</div>
+		</div>
+	</div>
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="details">
@@ -1025,9 +1145,9 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 			<br>
 			The bottom two floors of this tower aren't too dangerous, but keep Alena's HP above 30-35 down here.  In order of threat...<br>
 			<br>
-			Pteranodons have a 50% chance to cast Firebal for 10-18 and have enough MP to cast it twice, but they're not as common here as upstairs.  Razor Winds can potentially cast Infernos, but it's a 1/6 chance for them to cast it and then the damage range is 6-18.  Poison Lizards, as their name suggests, are bad news only if you don't have any antidote herbs.  Flythropes can attack Alena for about eight damage pretty consistently, but they sometimes waste their turn on Stopspell.  Spectets are what you want to see in here, as they have several moves that waste turns (Bounce, Hideous Shrieking Roar, Ironize).<br>
+			Pteranodons have a 50% chance to cast Firebal for 10-18 and have enough MP to cast it twice, but they're not as common here as upstairs.  Razor Winds can potentially cast Infernos, but it's only a 1/6 chance for them to cast it, and the damage range is 6-18.  Poison Lizards, as their name suggests, are bad news only if you don't have any antidote herbs.  Flythropes can attack Alena for about eight damage pretty consistently, but they sometimes waste their turn on Stopspell.  Spectets are what you want to see in here, as they have several moves that waste turns (Bounce, Hideous Shrieking Roar, Ironize).<br>
 			<br>
-			The top two floors introduce Butterfly Dragons, which will either attack for about 8 damage or breathe fire for 6-10.  It's all the same to Alena, but Cristo's not a fan of the breath.  Pteranodons are also much more common up here, sometimes showing up in triplicate.  Keep both characters' HP maxed if possible.  If Cristo runs out of MP before the top of the tower, you have 30 extra gold, and you're concerned about your herb count, you can let Cristo die.<br>
+			The top two floors introduce Butterfly Dragons, which will either attack for about 8-10 damage or breathe fire for 6-10.  It's all the same to Alena, but Cristo's not a fan of the breath.  Pteranodons are also much more common up here, sometimes showing up in triplicate.  Keep both characters' HP maxed if possible.  If Cristo runs out of MP before the top of the tower, you have <a href="#" data-toggle="tooltip" title="Or Cristo still has his Traveler's Clothes to sell.">30 extra gold</a>, and you're concerned about your herb count, you can let Cristo die.<br>
 			<br>
 			On the top floor, search the bottom-left grass tile in the middle of the room after the Zenithians leave.
 		</div>
@@ -1082,9 +1202,9 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 			<br>
 			As for the enemies themselves, Scorpions deal decent damage and have a chance to get critical hits.  Rogue Knights have higher attack and about the same crit chance, but will waste turns calling for Healers.  Healers waste a lot of time tickling each other.  Skeletons usually show up in pairs with no backup and will always cast Defense on turns one and three, so if they don't kill you on turn two, you're fine.  Pteranodons and Razor Winds, you know from Birdsong Tower.<br>
 			<br>
-			After this grind, and all of your Lifeforce Nuts and Strength Seeds are used, you're going to want to have 80 HP and 44 strength (80 attack power) minimum, and the higher the better on both.  Two more strength makes a big difference, and if you have two <i>less</i>, you're going to want to consider grinding to level twelve, lest you need to rely on a critical hit on Roric or Sampson in the arena.<br>
+			After this grind, and all of your Lifeforce Nuts and Strength Seeds are used, you're going to want to have 80 HP and 42 strength (80 attack power) minimum, and the higher the better on both.  Two more strength makes a big difference, and if you have two <i>less</i>, you're going to want to consider grinding to level twelve, lest you need to rely on a critical hit on Roric or Sampson in the arena.<br>
 			<br>
-			If Brey survives both Metal Slime fights, you won't have much trouble leveling to 12 off normal Endor encounters.  Do the other pre-tournament errands, including buying the Iron Claw, and then go back outside to grind.  Cast Icebolt, Snowstorm after Brey hits 11, on everything but Skeletons (use Sap instead).  Snowstorm will one-shot nearly everything.
+			If Brey survives both Metal Slime fights, you won't have much trouble leveling to 12 off normal encounters.  Do the other pre-tournament errands, including buying the Iron Claw, and then go outside the Bazaar to grind.  After Brey gets Snowstorm at level 11, move to Endor.  Cristo should cast Surround on Sandmasters, Armor Scorpions, and Rogue Knights.  Brey should cast Icebolt/Snowstorm on just about everything but Skeletons (use Sap instead).
 			</div>
 		</div>
 	</div>
@@ -1095,7 +1215,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 			<br>
 			The reason you're going for Grislysabers is because they don't have spells, and they call for backup.  This means they'll only attack Alena if Brey is dead and Cristo is in the back of the party, so you can parry and stack Upper on her while they call for help.  Only one of their six attack slots is occupied by the Reinforcements skill, so you'll want to keep at least two of them alive.  They also have about a 1/24 chance to get a critical hit for about 35 damage, so keep Alena's HP high.<br>
 			<br>
-			Grislysabers are worth 30 XP and 46 Gold each.  30 Grislysabers will get Alena to level 9 and give you enough gold to buy a Morning Star, even if you have to split it into two fights and use the inn (There's an inn in the center of the bottom floor).  After 30 kills, go to Endor, restock, buy the Morning Star, and go grind in the hills outside.<br>
+			Grislysabers are worth 30 XP and 46 Gold each.  Exactly 30 Grislysabers will get Alena to level 9 from level 6, and give you just enough gold to buy a Morning Star.  The Grislysabers can crit for about thirty damage, so I would recommend splitting the grind into two fights to get Alena some more HP for the back half.  After 16 kills, she should reach level 8, so stop here and go downstairs to the tower's inn before starting the next fight.  After 30 total kills, go to Endor, restock, buy the Morning Star, and go grind in the hills outside.<br>
 			<br>
 			You can fight just about everything out here, but run from anything with too many healers (3+?).  Rogue Knights and Armor Scorpions are vulnerable to Surround, so consider using it or Upper against large groups.  Surround has a chance to fail on the knights, so Upper may be better against them.  Don't bother casting Upper against Skeletons, as you should be able to take them down before they do any real damage.  The other two real enemies in this zone are Razor Winds and Pteranodons, which you know from Birdsong Tower.  Razor Winds are pushovers, but Pteranodons can do serious damage to Cristo with their Firebal spell, so prioritize taking them out first.<br>
 			<br>
@@ -1111,7 +1231,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="details">
-			After killing the second Metal Slime, cast Return to the Bazaar, <a href="#" data-toggle="tooltip" title="If you don't have 24 gold for the inn, either do the Golden Bracelet cave first, or kill something on the way to the tower and use the inn in there.  If you go to the cave, make sure you have enough MP to get back.">use the inn</a>, and head back into Birdsong Tower.  This tower should be a lot safer now, but a double or triple run fail could kill someone, and if Brey dies you have to walk out.
+			After killing the second Metal Slime, cast Return to the Bazaar, <a href="#" data-toggle="tooltip" title="If you don't have 24 gold for the inn and don't have 24 MP (to cast Return twice and Outside once), sell something of Cristo's or kill something on the way to the tower and use the inn in there.">use the inn</a>, and head back into Birdsong Tower.  This tower should be a lot safer now, but a double or triple run fail could kill someone, and if Brey dies you have to walk out.
 			</div>
 		</div>
 	</div>
@@ -1123,7 +1243,9 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="details">
-			Cast Outside/Return to Frenor, and go grab this chest off the first floor.  You may want to kill one group of enemies for some extra gold.  Your budget right now is 1500 gold for the claw, 40 gold for herbs, and 20 gold for an inn, which should be enough, but you only get one try at the tournament this way.  If Cristo doesn't have his Travelers Clothes to sell for emergency money, win one fight for some spare change.
+			If you picked up a Fairy Water earlier, use it now.<br>
+			<br>
+			Cast Outside/Return to Frenor, and go grab this chest off the first floor.  You may want to kill one group of enemies for some extra gold.  The gold chests give you enough gold for the claw and five herbs, but you only get one try at the tournament if you don't have any extra.  If Cristo doesn't have his Travelers Clothes to sell for emergency money, win one fight for some spare change.
 			</div>
 		</div>
 	</div>
@@ -1349,7 +1471,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="details">
-			Same as you did in Chapter 2, wait for night time so that we can meet with Prince Reed.  He's behind the weapon shop in the top-right corner, outside of the castle.
+			Same as you did in Chapter Two, wait for night time so that we can meet with Prince Reed.  He's behind the weapon shop in the top-right corner, outside of the castle.
 			</div>
 		</div>
 	</div>
@@ -1379,15 +1501,22 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Wing to Bonmalmo, sell Clothes and Full Plate (2724+), talk to the king, and save the game.</div>
+		<div class="step col-sm-12">Wing to Bonmalmo, sell Clothes and Full Plate (<a href="#" data-toggle="tooltip" title="Iron Apron (1500) + Iron Shield (650) + Wooden Hat (120) + Bronze Armor (700) + Two herbs (16) + one Wing (25) + Endor Inn (6) - 287 gold leftover from the Chain Sickle = 2730; lowest possible offer over this amount is 2731.">2731</a>), talk to the king, and save the game.</div>
 	</div>
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="details">
-			On your way to the Bonmalmo armor buyer, there's a merchant standing in the hallway.  If he's standing against the south wall, talk to the king first.  Make sure you get at least <a href="#" data-toggle="tooltip" title="Iron Apron (1500) + Iron Shield (650) + Wooden Hat (120) + Bronze Armor (700) + Two herbs (16) + one Wing (25) - 287 gold leftover from the Chain Sickle = 2724">2724 gold</a> for the Full Plate.  Sell your Clothes, too, to free up space.<br>
+			On your way to the Bonmalmo armor buyer, there's a merchant standing in the hallway.  If he's standing against the south wall, talk to the king first.  Make sure you get at least 2731 gold for the Full Plate.  Sell your Clothes, too, to free up space.<br>
 			<br>
 			After talking to the king and selling your armor, save the game to set a respawn point and walk to Endor.
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="alt-strat">
+			If you have the hang of this chapter and want to add in a very minor optimization that requires you to think about what you're buying later, you can accept an offer of 2695 gold if you buy an extra Iron Shield at Endor instead of the Bronze Armor.  A detailed explanation on how this merchant works will be given during the iron apron grind, but ignoring the merchant's "crit chance", this iron shield strat increases your odds of getting an acceptable offer from roughly 5/27 (19%) to roughly 6/27 (22%).  The time save and and the gold you lose in exchange are both negligible.
 			</div>
 		</div>
 	</div>
@@ -1399,25 +1528,25 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="details">
-			If you die on the walk to Endor, just reset the console.  Use the inn regardless of whether you take damage; resetting the time of day will let you reach the Silver Statuette cave before night, reducing the chance of encountering Blazeghosts.
+			If you die on the walk to Endor, just reset the console.  Use the inn regardless of whether you take damage: resetting the time of day will let you reach the Silver Statuette cave before night, reducing the chance of encountering Blazeghosts.
 			</div>
 		</div>
 	</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Endor Shopping: Bronze Armor, Iron Apron, Iron Shield, Wooden Hat, Herbx2, Wing</div>
+		<div class="step col-sm-12">Buy the Following at Endor: Bronze Armor, Iron Apron, Iron Shield, Wooden Hat, Herbx2, Wing.</div>
 	</div>
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="details">
-			Purchase the Bronze Armor first so that you can equip the Iron Apron faster.  You can get a third herb instead of the wing for slightly more safety, but it's usually not necessary.
+			Purchase the Bronze Armor first so that you can equip the Iron Apron faster.  You can get a third herb instead of the wing for more safety, but it's usually not necessary.
 			</div>
 		</div>
 	</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Use the Prince's Letter in front of Princess May</div>
+		<div class="step col-sm-12">Use the Prince's Letter in front of Princess Mia.</div>
 	</div>
 	<div class="detail-container">
 	<div class="row">
@@ -1487,7 +1616,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 			<br>
 			You're going to be doing this process at least twice -- almost always three times -- so you'll get used to it quickly.  The goal here is to get 35,000 gold to buy a shop in Endor, which we can then use to print our own money, but on top of that we'll want to at least buy an Iron Shield to get the shop primed.  The more leftover money you have, the better, so don't be afraid to do this segment one more time if you have enough to buy the shop, but not enough to buy a shield.<br>
 			<br>
-			The shop works like this:  Every time you sell something to him, it rolls a 1/32 chance.  If that hits, the old man will offer you a random value between 150% and 200% of the item's price (the price you would pay to buy it from a store).  If it misses, he will offer between 84% and 125% of the item's price.  For Iron Aprons, this means he'll usually offer 1265-1875 GP, but will sometimes offer 2250-3000 gold.  In terms of <i>profit</i>, these ranges are -235 to 375 GP, and 750-1500 GP.<br>
+			The shop works like this:  Every time you sell something to him, <a href="#" data-toggle="tooltip" title="Sometimes referred to as a &quot;critical hit&quot;.">it rolls a 1/32 chance</a>.  If that hits, the old man will offer you a random value between 150% and 200% of the item's price (the price you would pay to buy it from a store).  If it misses, he will offer between 84% and 125% of the item's price.  For Iron Aprons, this means he'll usually offer 1265-1875 GP, but will sometimes offer 2250-3000 gold.  In terms of <i>profit</i>, these ranges are -235 to 375 GP, and 750-1500 GP.<br>
 			<br>
 			You should need about 7000 gold to get through this segment, which is about what you'll average if you never accept anything under 1750 gold and never get an offer from the higher range.  It's fairly safe to put your cutoff at 1700 and assume you'll get one or two higher offers to raise your average profit enough to proceed.
 			</div>
@@ -1526,7 +1655,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Use your new shop to amass at least <a href="#" data-toggle="tooltip" title="24600GP = Seven Broad Swords (14000GP) + Seven Half Plates (8400) + Iron Apron (1500) + Iron Shield (650) + Two Wyvern Wings (50GP)">24,600 gold</a></div>
+		<div class="step col-sm-12">Use your new shop to amass at least <a href="#" data-toggle="tooltip" title="23975 = Seven Broad Swords (14000GP) + Seven Half Plates (8400) + Iron Apron (1500) + three Wyvern Wings (75GP)">23,975 gold</a>.</div>
 	</div>
 	<div class="detail-container">
 	<div class="row">
@@ -1628,13 +1757,14 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="todo">
-			TODO: Explain some Chapter 5 equipment options based on how many extra items you take away from this chapter.
+			TODO: Explain some Chapter Five equipment options based on how many extra items you take away from this chapter.<br>
+			TODO: List how many abacuses gives you how much gold (on average?) so you don't waste time getting too much gold at the end.
 			</div>
 		</div>
 	</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Buy Seven Half Plates and a Wyvern Wing</div>
+		<div class="step col-sm-12">Buy Seven Half Plates and a Wyvern Wing.</div>
 	</div>
 	<div class="detail-container">
 	<div class="row">
@@ -1682,20 +1812,13 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Purchase Iron Apron, Iron Shield, Wyvern Wing.  Spend extra gold.</div>
+		<div class="step col-sm-12">Purchase Iron Apron, Wyvern Wing.  Spend extra gold (Iron Shield, Fairy Water, more armor).</div>
 	</div>
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="details">
-			You need exactly the amount of gold the knight gave you (60,000) so spend the rest on Iron Aprons or Fairy Waters.  Having one or two extra Iron Aprons will give you some comfort-gold in Chapter 5, but more is unnecessary.  Fill the rest of your inventory with Fairy Water.  You can top off your inventory after using the wing if you really want to, but the extra Fairy Water isn't going to be worth it.
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-12">
-			<div class="todo">
-			TODO: This Iron Shield really isn't necessary.
+			You need exactly the amount of gold the knight gave you (60,000) so spend the rest on an Iron Shield, 1-2 Iron Aprons max, and Fairy Waters.  Having one or two extra Iron Aprons will give you some comfort-gold in Chapter Five, but more is unnecessary.  Fill the rest of your inventory with Fairy Water.  Equip the Iron Apron and Iron Shield.
 			</div>
 		</div>
 	</div>
@@ -1791,7 +1914,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Purchase Leather Dress, Feather Hat, 5 Herbs for Mara; 2 Wings, antidote herb for Nara</div>
+		<div class="step col-sm-12">Purchase Leather Dress, Feather Hat, 5 Herbs for Mara; 2 Wings, antidote herb for Nara.</div>
 	</div>
 	<div class="detail-container">
 	<div class="row">
@@ -1969,7 +2092,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Die to Keeleon</div>
+		<div class="step col-sm-12">Die to Keeleon.</div>
 	</div>
 	<div class="detail-container">
 	<div class="row">
@@ -2001,15 +2124,6 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	<div class="row">
 		<div class="step col-sm-12">Talk to your dad, then talk to Mom from across the table.</div>
-	</div>
-	<div class="detail-container">
-	<div class="row">
-		<div class="col-sm-12">
-			<div class="details">
-			Do not eat his lunch.
-			</div>
-		</div>
-	</div>
 	</div>
 	<div class="row">
 		<div class="step col-sm-12">Get the Medical Herb from pot in panic room and the Feather Hat from upstairs.</div>
@@ -2075,17 +2189,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="row">
 		<div class="step col-sm-12">Item shop: Sell Hero's Clothes and Leather Hat; Nara's Mystic Acorns and Silver Tarot Cards.</div>
 	</div>
-	<div class="detail-container">
 	<div class="row">
-		<div class="col-sm-12">
-			<div class="commentary">
-			
-			</div>
-		</div>
-	</div>
-	</div>
-	<div class="row">
-		<div class="step col-sm-12">Item shop: Buy Wooden Hat (Hero), Wing (Nara), Herb x2 (Hero)</div>
+		<div class="step col-sm-12">Item shop: Buy Wooden Hat (Hero), Wing (Nara), Herb x2 (Hero).</div>
 	</div>
 	<div class="detail-container">
 	<div class="row">
@@ -2098,15 +2203,6 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	<div class="row">
 		<div class="step col-sm-12">Transfer Feather Hat to Nara, buy Iron Shield from item shop, and equip Hero's armor.</div>
-	</div>
-	<div class="detail-container">
-	<div class="row">
-		<div class="col-sm-12">
-			<div class="commentary">
-			
-			</div>
-		</div>
-	</div>
 	</div>
 	<div class="row">
 		<div class="step col-sm-12">Use the inn, and Talk to Mara in the casino</div>
@@ -2203,13 +2299,13 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 			<div class="details">
 			Safety save before leaving town if you want.  If anybody dies on the way to the cave, you'll have to go back and revive them.  You need three living characters in your party to break the blocks in the first room of the cave.<br>
 			<br>
-			The encounter zone shifts as you reach the junction north of Hector's inn.  There are a few annoying enemies in this area.  Mad Clowns are the real threat, as they show up in pairs, and if they both cast Firebal it will usually kill Mara.  You can decide to either fight or run, but keep in mind that in Chapter 5, <a href="#" data-toggle="tooltip" title="In previous chapters, each enemy had a 25% chance to not act on a run failure (minimum one enemy acting), but in chapter five that stops.">all enemies will attack you on a run failure</a> 100% of the time.  In addition, if Nara has the Sleep spell, it's very effective against Mad Clowns, but the clowns have a ton of agility, and will probably act first.  Giant Eyeballs sometimes show up in this area as well, and can do some damage if they get angry, but they will usually split their damage since you've got three party members in this chapter.
+			The encounter zone shifts as you reach the junction north of Hector's inn.  There are a few annoying enemies in this area.  Mad Clowns are the real threat, as they show up in pairs, and if they both cast Firebal it will usually kill Mara.  You can decide to either fight or run, but keep in mind that in Chapter Five, <a href="#" data-toggle="tooltip" title="In previous chapters, each enemy had a 25% chance to not act on a run failure (minimum one enemy acting), but in chapter five that stops.">all enemies will attack you on a run failure</a> 100% of the time.  In addition, if Nara has the Sleep spell, it's very effective against Mad Clowns, but the clowns have a ton of agility, and will probably act first.  Giant Eyeballs sometimes show up in this area as well, and can do some damage if they get angry, but they will usually split their damage since you've got three party members in this chapter.
 			</div>
 		</div>
 	</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Liclick Battle</div>
+		<div class="step col-sm-12">Defeat the two Liclicks.</div>
 	</div>
 	<div class="detail-container">
 	<div class="row">
@@ -2255,7 +2351,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Tricksy Urchin Battle</div>
+		<div class="step col-sm-12">Defeat the Tricksy Urchins.</div>
 	</div>
 	<div class="detail-container">
 	<div class="row">
@@ -2518,7 +2614,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="alt-strat">
-			You can technically pick up just Brey from Mintos right now if you go talk to him, but this is really only useful if Mara is unable to cast Outside, such as if she died in the Lighthouse boss fight.  Even if he's carrying your Fairy Water from Chapter 2, you can just buy two Fairy Waters and pick up the whole team after Soretta.
+			You can technically pick up just Brey from Mintos right now if you go talk to him, but this is really only useful if Mara is unable to cast Outside, such as if she died in the Lighthouse boss fight.  Even if he's carrying your Fairy Water from Chapter Two, you can just buy two Fairy Waters and pick up the whole team after Soretta.
 			</div>
 		</div>
 	</div>
@@ -2573,7 +2669,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="alt-strat">
-			If you did the grislysaber grind in Chapter 2 and put a bunch of Fairy Water on Brey and/or Cristo, you can go to Mintos right now and pick up the Chapter 2 Crew.  Otherwise, we'll do that later to save lag frames when we look at the spell/item menus.  If you do this, make sure to grab the small medal next to the well.
+			If you did the grislysaber grind in Chapter Two and put a bunch of Fairy Water on Brey and/or Cristo, you can go to Mintos right now and pick up the Chapter Two Crew.  Otherwise, we'll do that later to save lag frames when we look at the spell/item menus.  If you do this, make sure to grab the small medal next to the well.
 			</div>
 		</div>
 	</div>
@@ -2645,7 +2741,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="details">
-			Entering Surene does not give you the Return point for Santeem, so make sure you enter the castle.
+			Entering Serene does not give you the Return point for Santeem, so make sure you enter the castle.
 			</div>
 		</div>
 	</div>
@@ -2699,7 +2795,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Return to Mintos, grab the Small Medal and the Chapter 2 Crew.</div>
+		<div class="step col-sm-12">Return to Mintos, grab the Small Medal and the Chapter Two Crew.</div>
 	</div>
 	<div class="detail-container">
 	<div class="row">
@@ -2873,7 +2969,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="details">
-			This fight, and most Chapter 5 boss fights, are pretty simple after you've set up.  You're only controlling one character during the battle, and our pre-battle prep and selected tactic will determine what the other three characters do.<br>
+			This fight, and most Chapter Five boss fights, are pretty simple after you've set up.  You're only controlling one character during the battle, and our pre-battle prep and selected tactic will determine what the other three characters do.<br>
 			<br>
 			The Hero is essentially just going to attack Keeleon to keep him asleep, but if you're feeling bold you can use the Staff of Punishment for 25-55 damage when he's asleep to increase your damage output.  However, Keeleon is much faster than your team, so if you attack there's a good chance you'll put him back to sleep on the same turn he wakes up.  Hero can also serve as the healer, if you've got Keeleon asleep and want to heal one or two people, but since Keeleon is regenerating, you don't want to spend too many turns healing.<br>
 			<br>
@@ -3154,7 +3250,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					<td>5200</td>
 				</tr>
 			</table>
-			If you have at least 4300 gold left, sell the Hero's Half Plate for a Dragon Mail, to reduce damage from Dragonits' fire breath.  Otherwise, buy Ragnar an Iron Mask or Iron Helmet.  You should be able to afford the Dragon Mail if you brought one extra Iron Apron out of Chapter 3, unless you deathwarped after Bakor.<br>
+			If you have at least 4300 gold left, sell the Hero's Half Plate for a Dragon Mail, to reduce damage from Dragonits' fire breath.  Otherwise, buy Ragnar an Iron Mask or Iron Helmet.  You should be able to afford the Dragon Mail if you brought one extra Iron Apron out of Chapter Three, unless you deathwarped after Bakor.<br>
 			<br>
 			Equip all of your new stuff, including the Zenithian Shield (Hero, Ragnar, Alena).  You can either sell Hero's Iron Shield or pass it to Ragnar or Cristo, but the defense power doesn't do much at this point, especially if it's just replacing Ragnar's Scale Shield.
 			</div>
@@ -3183,7 +3279,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	<div class="row">
 		<div class="col-sm-12">
-			<div class="commentary">
+			<div class="details">
 			Cast Repel before entering this dungeon.<br>
 			<br>
 			The big problem you're facing in the Colossus is Blizags, which have a tendency to cast Beat and Defeat.  They're not likely to successfully cast and land the spells, but they appear on every floor so over the course of the dungeon it becomes pretty likely you'll lose a couple people.  You will also rarely encounter Snowjives, which cast Blizzard, the tier-three ice elemental group spell.  Both monsters are highly resistant or immune to Beat/Defeat, Expel, and Stopspell, so there's not a whole lot you can do but run.  If they're solo you can fight them, but then you'll lose the repel bug when you exit the dungeon.<br>
@@ -3225,13 +3321,15 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Get the Zenithian Armor and a Hat of Happiness.</div>
+		<div class="step col-sm-12">Get the Zenithian Helmet, Zenithian Armor, and a Hat of Happiness.</div>
 	</div>
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="details">
-			You can optionally get these items before the Colossus, but I recommend geting them now.  Re-order to just Hero and Ragnar and run through the cave to grab the armor and small medal.  If you only have two small medals for some reason, grab the extra one in the first long hallway.  When you're done in here, cast Outside and trade in the medals.
+			You can optionally get these items before the Colossus, but I recommend geting them now.  Re-order to Panon, Hero and Ragnar before entering Stancia to get the helmet.  Run straight through the cave to grab the armor and small medal at the end.  If you only have two small medals for some reason, grab the extra one in the first long hallway.  When you're done in here, cast Outside and trade in the medals.<br>
+			<br>
+			Note that once Panon is gone, if you win a battle or reset the console, you'll be susceptible to overworld encounters until you reach Lucia.
 			</div>
 		</div>
 	</div>
@@ -3458,7 +3556,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 			<br>
 			Inside Zenithia, you can optionally talk to Master Dragon to get about half a level up worth of EXP for the Hero.  This also powers up the Zenithian Sword, doubling its attack power and activating its ability to remove buffs from enemies.  The attack boost is only useful if you want to be really aggressive against Necrosaro, and the ability is only useful if his third phase stacks Increase.  You should also grab a Dew of the World Tree from the minidemon who's growing World Trees.  Use it immediately to refill your health, and talk to him again to get another one.  Note that walking around Zenithia will also give Cristo a chance to regenerate MP if he has the Hat of Happiness.<br>
 			<br>
-			Jump into the hole to get to the Final Cave.  Re-order the party to just Hero and Ragnar, and proceed through the cave.  Once you get <a href="#" data-toggle="tooltip" title="A room or two before you reach the &quot;tower&quot; section.">closer to the end</a>, pull out your full party and take a couple battles to get Brey the EXP he needs.  If you did the Metal Slime grind in Chapter 2, you'll need 3-4k EXP, otherwise you'll need 5-6k.  The high-end numbers assume all Demighouls and Anderougs in the boss gauntlet get bounced with the Aeolus Shield, not killed by Defeat.<br>
+			Jump into the hole to get to the Final Cave.  Re-order the party to just Hero and Ragnar, and proceed through the cave.  Once you get <a href="#" data-toggle="tooltip" title="A room or two before you reach the &quot;tower&quot; section.">closer to the end</a>, pull out your full party and take a couple battles to get Brey the EXP he needs.  If you did the Metal Slime grind in Chapter Two, you'll need up to 3.4k EXP, otherwise you'll need up to 6.1k.  These numbers assume all Demighouls and Anderougs in the boss gauntlet get bounced with the Aeolus Shield, not killed by Defeat.  If you did the Metal Slime grind, you can opt to kill the Anderougs instead of hitting them with the Aeolus Shield (or at least wait until three die before using the shield).<br>
 			<br>
 			You can optionally pick up the Water Flying Clothes for Brey, but he shouldn't need them.  Grab the Mirror Shield in the center of the tower section and equip it on Ragnar.  This will give you a slight damage boost against Radimvice, which is nice if you play the fight overly safely, and also gives you a chance of murdering Metal Kings and Babbles in the remainder of the dungeon.
 			</div>
@@ -3681,7 +3779,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="todo">
-				TODO: Time whether it's better to heal at Rosaville, Soretta, or Last Refuge.
+				TODO: Time whether it's better to heal at Rosaville, Soretta, or Last Refuge.<br>
 				TODO: Do more testing on how to get Cristo to cast Increase twice.
 			</div>
 		</div>
@@ -3852,8 +3950,9 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 				TODO: Does Offensive or another tactic (Save MP?) prompt Brey to cast Bikill sooner?<br>
 				TODO: Who is the fastest corpse?  (Mara?)  Are they fast enough to matter?<br>
 				TODO: Analyze whether counting his HP can ensure Brey casts Bikill right when he jumps out of the wagon.<br>
-				TODO: Does putting Necrosaro to sleep encourage/discourage Increase or Bikill?
-				TODO: Does switching weapons reset the hero's attack power?
+				TODO: Does putting Necrosaro to sleep encourage/discourage Increase or Bikill?<br>
+				TODO: Does switching weapons reset the hero's attack power? (TO-DID: No!)<br>
+				TODO: Should you switch off of Message Speed 8 for this fight? (Frame-count Freezing Waves and breath)
 			</div>
 		</div>
 	</div>
@@ -3899,7 +3998,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 		 - I don't actually know how a lot of combat works in DW4 specifically, and assume it works the same as DW3.<br>
 		Glitches (Maybe include FC glitches?)<br>
 		 - Should probably be its own appendix<br>
-		Minigames: Casino, the three Chapter 3 money making games, free casino coins in C5
+		Minigames: Casino, the three Chapter Three money making games, free casino coins in C5
 	Appendix 3: Probability Simulations
 		Anything I've run sims on, such as boss fights or metal slime encounter odds.
 	
@@ -3913,13 +4012,13 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 		</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Appendix I. Speed vs Safety</div>
+		<div class="step col-sm-12">Appendix I. Common Speed vs Safety Compromises</div>
 	</div>
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="details">
-				This guide has a solid focus on detailing the route a runner would take through the game to beat the game as fast as viably possible, but there are many things you should do differently in your first runs, or in situations where you want to complete a full run without restarting the game.  The guide above mentions these as they come up, but this appendix will highlight the big ones.
+				This guide has a solid focus on detailing the route a runner would take through the game to beat the game as fast as viably possible, but there are many things you should do differently in your first runs, or in situations where you want to complete a full run without restarting the game.  The guide above mentions many of these compromises as they come up, but this appendix will highlight the big ones.
 			</div>
 		</div>
 	</div>
@@ -3932,14 +4031,14 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 				<br>
 				Chapter Two:  This one is also stat-dependent, but if you have <a href="#" data-toggle="tooltip" title="Under 80 HP and/or under 42 strength. Being under on both gives you a 15-30% chance to win the tournament.">below average stats</a> on Alena at level 11, you'll want to get her to level twelve.  This can mean killing another Metal Slime, or fighting more trash outside Endor.  If you were farming Metal Slimes, you can Return to the Bazaar and fight out there until Brey hits 11 and learns Snowstorm, and then go back to Endor.<br>
 				<br>
-				Chapter Five:  In early runs, I would strongly encourage runners to get extra levels out of the Metal Babble grind.  At minimum you need the Hero to learn Zap, but one more level on Cristo gets you HealAll, another level on Hero gets you a second HealAll, and a second level (which should be three Metal Babbles after Zap) on Cristo gets you Vivify.
+				Chapter Five:  In early runs, I would strongly encourage runners to get extra levels out of the Metal Babble grind.  At minimum you need the Hero to learn Zap, but one more level on Cristo gets you HealAll, another level on Hero gets you a second HealAll, and a second level on Cristo gets you Vivify.  Each extra Metal Babble you kill should net you one of the above bonuses, in the listed order.
 			</div>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="alt-strat">
-				If you're not pushing to set a new world record, it's a good idea to grind on Birdsong/Endor enemies in Chapter 2 instead of Metal Slimes.  The Metal Slime grind is extremely unreliable, and under half of your Metal Slime grinds will end up faster than the alternative.  I would only recommend using the Metal Slime grind to someone who has a sub seven hour personal best.<br>
+				If you're not pushing to set a new world record, it's a good idea to grind on Birdsong/Endor enemies in Chapter Two instead of Metal Slimes.  The Metal Slime grind is extremely unreliable, and under half of your Metal Slime grinds will end up faster than the alternative.  I would only recommend using the Metal Slime grind to someone who has a sub seven hour personal best.<br>
 				<br>
 				When you do this alternate grind, you can also consider saving right before Alena hits level 11 and resetting if she doesn't gain much strength.  She usually gains 2-5 strength, so resetting to ensure you get 4-5 could really increase your odds of a first try tournament win.  You can even check your stats at level 9 and consider doing the same savescumming for level 10 if you think you're low on strength or even HP.
 			</div>
@@ -3948,7 +4047,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="alt-strat">
-				At the end of Chapter Three, you can fill up Taloon's inventory with Abacus of Virtue or Iron Aprons to sell in Chapter 5.  This will cost you about two minutes of menuing, more if you have to make a special trip to get more money just for this, but it'll let you buy more defense power for Ragnar and the Hero.  With this extra money, during the Rosaville shopping trips, you can buy Dragon Mail and Iron Helmets or Masks for both characters.
+				At the end of Chapter Three, you can fill up Taloon's inventory with Abacus of Virtue or Iron Aprons to sell in Chapter Five.  This will cost you about two minutes of menuing, more if you have to make a special trip to get more money just for this, but it'll let you buy more defense power for Ragnar and the Hero.  With this extra money, during the Rosaville shopping trips, you can buy Dragon Mail and Iron Helmets or Masks for both characters.
 			</div>
 		</div>
 	</div>
@@ -3961,23 +4060,81 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 		<div class="col-sm-12">
 			<div class="todo">
 				TODO: Still thinking about what to put in these appendices vs just linking to a folder of txt files, but I think some good stuff could go in a section about mechanics...<br>
+				UPDATE: Still need to "write" this section, but here's some links:<br>
+				<a href="https://cowness.net/Speedrunning/DW4 Notes/" target="_blank">https://cowness.net/Speedrunning/DW4 Notes/</a><br>
+				<a href="https://cowness.net/Speedrunning/FCEU LUA Scripts/" target="_blank">https://cowness.net/Speedrunning/FCEU LUA Scripts/</a><br>
+				TODO: I need a writeup on the glitches I know about
+			</div>
+			<div class="details">
+				<h5>Dragon Warrior IV Glitches</h5>
+				<br>
+				All of the glitches below are allowed in DW4 RTAs, because none of them allow you to perform story sequence breaks.  This ruling will likely change and an additional RTA category may be created if major skips are ever found.<br>
+				<br>
+				<h6>"Repel Glitch"</h6>
+				This bug isn't technically a flaw in how Repel works, but repelling enemies is how we apply it to the speedrun.<br>
+				<br>
+				Repel, Fairy Water, and <a href="#" data-toggle="tooltip" title="I haven't confirmed this personally, but I'm told all of this applies to the monster arena as well.">the casino monster arena operate based on your highest leveled party member.  However, instead of checking your whole party every time it needs to know the highest level, the game writes down the highest level into a memory address that isn't always updated.  I have <a href="#" data-toggle="tooltip" title="It should be titled &quot;On Repel.txt&quot; somewhere in the DW4 Notes directory.">a file in my notes folder</a> with more details, but it basically updates after battle (unless you run), between chapters, and when you load the game, and it only considers members in the wagon if you have the wagon with you.  Additionally and more importantly, it recognizes <a href="#" data-toggle="tooltip" title="?-level characters like Healie">"guest" party members</a> as <a href="#" data-toggle="tooltip" title="If you look at my table of monster stats, these numbers are their index in that table.">levels 198-205</a>, so if you have a guest in your team (or haven't fought/reset since losing one) you can repel any enemy on the overworld.  As for the casino, I'm told it moduluses the party's level by 128, so technically it will only see you as level 70-77, but I'm not convinced the monster formations change when you're higher than that.<br>
+				<br>
+				<h6>"Coffin Blocking"</h6>
+				This is a pretty tame glitch, but very useful in the speedrun.  Most enemies in this game have a higher chance when using basic physical attacks to target the character you put in the front of the party than the characters behind them.  However, there is a flaw in this targeting routine that makes these monsters ignore the backmost living character if there is a dead character somewhere in front of them.  For example, if your party order is Alena, Brey, Cristo, and Brey is dead, most monsters won't be able to target Cristo.  I don't have a comprehensive list of exceptions to this rule, but some monsters have "unweighted" targeting -- meaning they have an equal chance to strike every party member -- and that form of targeting does not have this flaw.  All spells use unweighted targeting as well, and area attacks will still hit all characters.<br>
+				<br>
+				<h6>Double-Door/Treasure Map Glitch</h6>
+				Applications of this bug are disappointingly limited, but if you open the Treasure Map in a town with the large sets of double-doors (Rosaville, most castles) the doors will close.  Not a big deal, except that these doors act strangely when you open them from above or from the sides, which you can do if you exit such a building and then use the map while still standing on the door.  I haven't studied the exact behavior, but opening these doors from other directions will spawn a new door, offset by one or two tiles based on which direction you're facing, and <a href="#" data-toggle="tooltip" title="In fact, all double-doors on the map will open at the same time.  The game never has multiple sets of these doors on one map, except in Stancia where they all default to open.">they'll both open</a>.  You can always stand on the lower two tiles of these doors, so being able to spawn more doors allows you to get <a href="#" data-toggle="tooltip" title="Out of the intended boundaries, rather.  You will still exit the town if you walk too far away, and if you spawn a door outside of the town limits, the game will crash.">out of bounds</a> in some areas.<br>
+				<br>
+				There are only a couple of uses for this, and none of them benefit the speedrun.  The closest is that you can get the Multi-Edge Sword in Endor before getting the magic key, but the magic key is available as soon as the Treasure Map is available, so that's not too useful.<br>
+				<br>
+				The most interesting use is that you can talk to an out-of-bounds NPC in the <a href="#" data-toggle="tooltip" title="You can actually see his feet without going out of bounds.">top-right corner of Endor</a>, but he just repeats something originally said by an NPC in the bazaar in chapter two.<br>
+				<br>
+				Additionally, you can use this to break out of Zenithia after beating Necrosaro without triggering the end sequence (jump in the hole to the Final Cave and die to the clay dolls in Necrosaro's castle), which lets you visit some towns when they're set up for the ending cutscenes.  There's also something screwy you can do in the Final Cave to glitch the overworld and wrong warp to the Shrine of Breaking Waves (which gets you stuck surrounded by water and mountains without the ship), but I don't know the specifics of it.  There's a video of someone doing this one on the Famicom version, and I messed with it a little and believe it works the same way on NES, but don't remember the steps to reproduce it.<br>
+				<h6>Gardenbur at Night</h6>
+				Gardenbur is normally inaccessible at night, but if you save at Gardenbur, save again at the Last Refuge during night time, and reset the game, you will start at Gardenbur during the night.  The castle's "night time map" has no NPCs on it other than the guards blocking the front door, so there's not a whole lot you can do in here.<br>
+				<br>
+				<h5>Dragon Quest IV (Famicom) Glitches</h5>
+				<br>
+				Some glitches were fixed when they ported DQ4 to the NES, but as far as I know, no new bugs were introduced.  Standard DQ4 FC runs ban three of the glitches below, but there's a separate category with a few times on its board where anything goes.<br>
+				<br>
+				<h6>Holy Water Bug</h6>
+				When you use Holy Water (Fairy Water) on an enemy in DQ4/DW4, it deals about ten points of damage.  In the North American release it uses the Expel resistance value, but in the Japanese release it will work on all enemies every time, including Metal Slimes.  This glitch is notably allowed in standard DQ4 FC RTAs, and it saves more time than the language difference.<br>
+				<br>
+				<h6>Invisible Balloon Gltich (Banned)</h6>
+				Before turning in the Gas Canister, there's a balloon sitting, invisible, in the corner of the map at coordinate 0,0.  You can find it by sailing <a href="#" data-toggle="tooltip" title="Give or take one or two in either direction based on how you interpret my bad description of the initial position.">three tiles north and fourteen tiles west</a> after getting the NW corner of Stancia island in the bottom-right corner of your screen.  The balloon returns to the corner of the map when you enter a town, so it's not useful for general travel, but you can use it to sequence break to Gardenbur, the World Tree, and Gottside.<br>
+				<br>
+				<h6>"8x Run Glitch" (Banned)</h6>
+				When you fail to run more than three times, which can only happen in boss fights, the counter that tracks your run fails overflows and starts setting other combat flags.  The fourth failure will set the flag that determines whether or not you've used the Sandglass of Regression <a href="#" data-toggle="tooltip" title="I'm not entirely sure why this flag exists.  It tracks whether you've used it since the last inn stay, which determines whether or not the sandglass is usable, elsewhere.">during the current battle</a>, and the eighth will set a flag used by the Chance spell that causes all of your attacks to be critical hits.  This means if you fail to run eight times, or <a href="#" data-toggle="tooltip" title="Note that using the Sandglass SETS the bit, it's not an increment, so it won't carry over if it's already set.  This means if you run four times before using the sandglass, using it will not help you get to the crit flag faster.  I recommend running three times, using the Sandglass, and then running again.  Also note that the Sandglass has to actually work, so if you used it in another battle since your last inn stay, it will not help you.  However, even though the Sandglass resets the battle, it doesn't reset your run count.">use the Sandglass</a> and fail to run four times, you will get critical hits for the rest of the battle.  Since running eight times will also require a few recovery turns, and battles don't generally last 8-12 rounds, I've only found this to be useful against Necrosaro or to salvage a really bad Radimvice fight, but if you pick up the sandglass it might be useful against other slow fights like Bakor or the Gigademon.<br>
+				<br>
+				<h6>Casino Coin Price Overflow (Banned)</h6>
+				When you purchase more than <a href="#" data-toggle="tooltip" title="This is the highest value that can be stored in three bytes of data: 256^3, or 2^24.">16,777,216 gold</a> worth of coins, the price underflows and you'll only have to pay the modulus of the expected amount and 16,777,216.  This means in chapter five where coins cost 20 gold, if you buy 838,861 coins, the price will overflow and you'll only be charged four gold.  In chapter three, coins cost 200 gold, so you could buy 83,887 coins and only have to pay 184 gold.  Since you can't buy more than 999,999 coins at once, you can't perform this glitch in chapter two, where coins only cost 10 gold.
 			</div>
 		</div>
 	</div>
 	</div>
 	<div class="row">
-		<div class="step col-sm-12">Appendix III. Sources and Additional Resources</div>
+		<div class="step col-sm-12">Appendix III. Credits, Thank-Yous, and Additional Resources</div>
 	</div>
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="details">
-				All of the text and HTML in this document was painstakingly hand-typed into good ol' Notepad++ by myself, TheCowness, unless otherwise directly cited.  It would've been a good idea to look for or write a web-based content editor, but I instead opted for the web developer's version of writing a novel with pen and paper.<br>
+				All of the text and HTML in this document was painstakingly hand-typed into good ol' Notepad++ by myself, TheCowness.  All data and images were mined/created by me unless otherwise directly cited.<br>
 				<br>
-				In chronological order,<br>
-				Thanks to NESCardinality for providing the inspiration to speedrun such a long video game, as well as the VOD I ripped my original route from (<a href="https://www.speedrun.com/dw4/run/8y813xwz" target="_blank">his 6:40 run from 03/14/2015</a>).<br>
+				This document is not to be hosted publicly on another domain or server without my consent, but may be saved privately for personal use.  If quoting or referencing this web page in your own document, please credit me by username (TheCowness) and provide a link to the full guide.<br>
+			</div>
+		</div>
+		<div class="col-sm-12">
+			<div class="details">
+				<h6>In chronological order,</h6><br>
+				Thanks to my mother for helping me get through the original Dragon Warrior when I was like four years old.  The four year olds I've met during my adulthood have made this achievement feel particularly impressive.<br>
+				<br>
+				Thanks to all of the buddies I made playing Dragon Warrior themed fangames in the early 00's, most of whom I still talk to on a daily basis.  They're the main reason this run means enough to me to stick with it this long.<br>
+				<br>
+				On that note, thanks to the buddies I've made more recently playing and watching these games (and others) on Twitch.<br>
+				<br>
+				Thanks to NESCardinality for providing the initial inspiration to speedrun such a long video game, as well as the VOD I based my original route on (<a href="https://www.speedrun.com/dw4/run/8y813xwz" target="_blank">his 6:40 run from 03/14/2015</a>).<br>
+				<br>
 				Thanks to Everhate for assisting with my early runs of both Dragon Warrior IV and Dragon Warrior III, and (to my knowledge) for coming up with the original NES speedrun route for the game, based on Japanese Famicom runs.<br>
+				<br>
 				Thanks to EvilAsh25 for digging up some useful Japanese-language docs detailing how things work in DQ4 FC, for helping parse Google Translated versions of those docs, for his own independent research and scripting, and for assistance in re-routing chapter five in 2018.<br>
+				<br>
 				And, of course, thanks to Linguar for inventing 25%.
 			</div>
 		</div>
@@ -4002,12 +4159,26 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 </div>
 <script type="text/javascript">
 	$("document").ready(function(){
-		//Initialize tooltips
-		$('[data-toggle="tooltip"]').tooltip(); 
+		
+		$(".step").each(function(){
+			if($(this).parent().next().is(".detail-container")){
+				$(this).addClass("hasdetail");
+				$(this).html('<i class="fas fa-plus"></i>'+$(this).html());
+			}else{
+				$(this).addClass("nodetail");
+			}
+		});
 		
 		//Toggle to open expanations
-		$(".step").click(function(){
+		$(".step.hasdetail").click(function(){
 			$(this).parent().next(".detail-container").toggle();
+			$(this).children("i").each(function(){
+				if($(this).hasClass("fa-plus")){
+					$(this).removeClass("fa-plus").addClass("fa-minus");
+				}else{
+					$(this).removeClass("fa-minus").addClass("fa-plus");
+				}
+			});
 		});
 		
 		$(".detail-container").hide();
@@ -4016,15 +4187,45 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 			//If there are no hidden fields, hide them all.  Else, show them all.
 			if($('.detail-container:hidden').length == 0){
 				$(".detail-container").hide();
+				$(".step.hasdetail").each(function(){
+					$(this).children("i").each(function(){
+						if($(this).hasClass("fa-minus")){
+							$(this).removeClass("fa-minus").addClass("fa-plus");
+						}
+					});
+				});
 			}else{
 				$(".detail-container").show();
+				$(".step.hasdetail").each(function(){
+					$(this).children("i").each(function(){
+						if($(this).hasClass("fa-plus")){
+							$(this).removeClass("fa-plus").addClass("fa-minus");
+						}
+					});
+				});
 			}
 		});
+		$(function() {
+			var bar = $('#headerSlideContainer');
+			var top = bar.css('top');
+			$(window).scroll(function() {
+				if($(this).scrollTop() > 200) {
+					bar.stop().animate({'top' : '0px'}, 500);
+				} else {
+					bar.stop().animate({'top' : top}, 500);
+				}
+			});
+		});
+		//Initialize tooltips
+		$('[data-toggle="tooltip"]').tooltip(); 
+		$('a[data-toggle="tooltip"]').click(function(){ return false; });
 	});
 </script>
 <style type="text/css">
 body{
 	background-color: #eeeeff;
+	background: url(/DW4Guide/images/sciencebackgroundimage.jpg);
+	font-size:16px;
 }
 h3{
 	padding-top:24px;
@@ -4035,6 +4236,7 @@ h3{
 	background-color: #fff;
 	margin: 0 auto;
 	padding: 32px;
+	opacity: 1;
 }
 .expand-all{
 	cursor:pointer;
@@ -4045,6 +4247,20 @@ h3{
 }
 .step:hover{
 	background-color:#f3f3ff;
+}
+.hasdetail{
+	padding-left:40px;
+}
+.nodetail{
+	padding-left:40px;
+}
+.step>i.fas{
+	position:absolute;
+	left:22px;
+	top:7px;
+	color:#666;
+	font-weight:bold;
+	font-size:12px;
 }
 .details{
 	margin: 8px 32px;
@@ -4093,6 +4309,39 @@ h3{
 }
 .table-responsive{
 	margin: 8px 32px;
+}
+
+#headerSlideContainerContainer {
+	width:100%;
+	max-width: 1000px;
+	background: #fff;
+	margin: 0 auto;
+	opacity: 1;
+	z-index: 100;
+}
+#headerSlideContainer {
+	background: #fff;
+	width: 100%;
+	max-width: 1000px;
+	position: fixed;
+	top:-100px;
+	opacity: 1;
+	z-index: 101;
+}
+#headerSlideContent {
+	background: #fff;
+	width: 100%;
+	max-width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	color: black;
+	border-bottom: 1px solid #ccc;
+	opacity: 1;
+	z-index: 102;
+	text-align: center;
+}
+.expand-all-header{
+	font-size: 12px;
 }
 </style>
 </body>
