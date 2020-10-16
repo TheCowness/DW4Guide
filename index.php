@@ -24,14 +24,15 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
  4. Haktical - 6:24:15 (SRC)
  5. Gyre - 6:46:01 (SRC)
  6. HighSpirits - 6:51:50 (SRC)
- 7. EvilAsh25 - 6:53:20 (SRC)
     Twitchpoppop - 6:52:18 https://twitter.com/pop_twitch/status/1250734102510100481 (No VOD; stream connection issues)
+ 7. EvilAsh25 - 6:53:20 (SRC)
  8. Shiner - 7:01:25 (SRC)
     dawarwiz - 7:17:16 (According to his LiveSplit here https://www.twitch.tv/videos/477428279 (Video expired))
  9. Everhate - 7:17:41 (SRC)
 10. Vaeluv - 7:42:43 (SRC)
 11. Toad22484 - 7:53:18 (SRC) - https://www.twitch.tv/videos/419629357
 12. Zombietraine - 8:01:21 (SRC)
+	Anatoleu - 8:12 (Discord message in DQRTA server DW4_nes channel 9/20/2020 2:56 PM EDT)
     Joshy_D - "12.5 hours" - https://twitter.com/therealjoshyd/status/739589777209495553
     Lavitz951 - 12:59:21 - https://www.twitch.tv/videos/403546399 (run wasn't highlighted; video has expired)
 -->
@@ -59,14 +60,14 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="row">
 		<div class="col-sm-12">
 		<!--- Commending this code out because I'm just updating the unofficial leaderboard...
-			<h3>Last Updated <?php echo date("m/d/Y", filemtime(__FILE__)); ?></h3><br>
-		--->
 			<h3>Last Updated 11/18/2019</h3><br>
+		--->
+			<h3>Last Updated <?php echo date("m/d/Y", filemtime(__FILE__)); ?></h3><br>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-sm-12">
-			<h6>Status: More or less in a "1.0" state.  Awaiting runner feedback to perform any more heavy modifications.</h6><br>
+			<h6>Status: More pictures now.  Planning some chapter five revisions soon™</h6><br>
 		</div>
 	</div>
 	<div class="row">
@@ -397,7 +398,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -459,6 +461,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -503,7 +506,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover saro-shadow-bg">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -539,6 +543,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -648,7 +653,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 		</div>
 		<div class="col-sm-12">
 			<div class="aggro-strat">
-			Once you have a handle on the upcoming grind and the Chameleon Humanoid fight, you can consider selling Alena's Feather Hat for a Thorn Whip.  This will give her enough attack power to reliably one-shot most enemies in the grind, though the Humanoid fight will be a little more dangerous.  If you do sell the Feather Hat, buy a Wooden Hat for Alena once you reach Frenor (selling the Thorn Whip in addition to what you usually sell).
+			Once you have a handle on the upcoming grind and the Chameleon E fight, you can consider selling Alena's Feather Hat for a Thorn Whip.  This will give her enough attack power to reliably one-shot most enemies in the grind, though the Humanoid fight will be a little more dangerous.  If you do sell the Feather Hat, buy a Wooden Hat for Alena once you reach Frenor (selling the Thorn Whip in addition to what you usually sell).
 			</div>
 		</div>
 	</div>
@@ -674,7 +679,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 			</div>
 		</div>
 		<div class="col-sm-4">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -734,6 +740,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 		<div class="col-sm-12">
 			<div class="aggro-strat">
@@ -760,7 +767,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover chameleon-humanoid-bg">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -796,6 +804,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row ">
@@ -804,7 +813,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 				This boss is pretty safe as long as Cristo isn't killed or put to sleep on turn one.  Note that the Rabidhounds do always spawn with their maximum HP, but besides that they're the same Rabidhounds you encounter outside.  The Chameleon Humanoid has a pretty strong physical attack, which has a 1/9 chance of putting the target to sleep, and he'll cast Heal on himself or on the hounds if they fall <a href="#" data-toggle="tooltip" title="These threshhold(s) needs more testing; I've seen him heal himself at 19/40 HP, but he doesn't heal the Rabidhounds until they drop under 1/3 HP.  If Icebolt hits a Rabidhound for max damage (16), it'll barely be knocked into range to be healed.">into low HP</a> a maximum of two times.  Fortunately, the Chameleon Humanoid is fast enough (<a href="#" data-toggle="tooltip" title="The same as a Metal Slime!">50 agility</a>) that he's guaranteed to go first, so it's easy to plan around the Heal thresholds without him unexpectedly taking his action out of order.<br>
 				<br>
 				The fight should look like this:<br>
-				<table class="table table-responsive">
+				<div class="table-container">
+				<table class="table table-responsive table-hover">
 					<tr>
 						<td>Round</td>
 						<td>Alena</td>
@@ -848,6 +858,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 						<td>Repeat until Chameleon Humanoid dies.</td>
 					</tr>
 				</table>
+				</div>
 				<br>
 				Ideally the fight takes 4-5 rounds, but damage rolls, the Chameleon Humanoid's resistance to Icebolt, and the Chameleon Humanoid's SleepHit can mess things up a bit.  The general idea is to avoid knocking the Rabidhounds under 1/3 HP so that the Chameleon Humanoid doesn't heal, but if he does heal, he's not attacking you, so there's a silver lining there.  If Cristo gets killed or put to sleep before he casts Upper on Alena, you're probably going to lose the fight.  If Brey dies before casting Sap, the fight will be slow, but as long as Upper goes off you should survive.
 			</div>
@@ -940,7 +951,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="details">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover">
 				<tr>
 					<th>Action</th>
 					<th>Item</th>
@@ -991,6 +1003,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					<td>-32</td>
 				</tr>
 			</table>
+			</div>
 			If you started with 453GP, you should have 60 GP leftover at the end, which will be used to revive Cristo later.
 			</div>
 		</div>
@@ -1294,7 +1307,9 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<div id="linguar-tongue"></div>
+			<table class="table table-responsive table-hover tournament-bg">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -1360,6 +1375,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					<tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -1678,7 +1694,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive" style="margin:0 auto;">
+			<div class="table-container">
+			<table class="table table-responsive table-hover" style="margin:0 auto;">
 				<thead>
 					<tr>
 						<th></th>
@@ -1752,6 +1769,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					-->
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -2049,7 +2067,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover balzack4-bg">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -2075,6 +2094,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -2310,7 +2330,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -2336,6 +2357,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -2356,7 +2378,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover urchin-bg">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -2392,6 +2415,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -2522,7 +2546,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover lighthouse-bg">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -2558,6 +2583,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -2938,7 +2964,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover keeleon-bg">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -2964,6 +2991,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -3002,7 +3030,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover balzack5-bg">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -3028,6 +3057,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -3134,7 +3164,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover bakor-bg">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -3160,6 +3191,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -3200,7 +3232,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 		<div class="col-sm-12">
 			<div class="details">
 			Return to Rosaville, and perform the following transactions:
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover">
 				<tr>
 					<th>Action</th>
 					<th>Item</th>
@@ -3250,6 +3283,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					<td>5200</td>
 				</tr>
 			</table>
+			</div>
 			If you have at least 4300 gold left, sell the Hero's Half Plate for a Dragon Mail, to reduce damage from Dragonits' fire breath.  Otherwise, buy Ragnar an Iron Mask or Iron Helmet.  You should be able to afford the Dragon Mail if you brought one extra Iron Apron out of Chapter Three, unless you deathwarped after Bakor.<br>
 			<br>
 			Equip all of your new stuff, including the Zenithian Shield (Hero, Ragnar, Alena).  You can either sell Hero's Iron Shield or pass it to Ragnar or Cristo, but the defense power doesn't do much at this point, especially if it's just replacing Ragnar's Scale Shield.
@@ -3380,7 +3414,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	</div>
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover esturk-bg">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -3406,6 +3441,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -3454,7 +3490,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 			</div>
 		</div>
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -3523,6 +3560,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 		<div class="col-sm-12">
 			<div class="details">
@@ -3583,7 +3621,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover infernusshadow-bg">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -3609,6 +3648,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -3625,7 +3665,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover balzack5-bg">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -3651,6 +3692,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -3667,7 +3709,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover anderoug-bg">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -3693,6 +3736,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -3709,7 +3753,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover radimvice-bg">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -3745,6 +3790,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -3791,7 +3837,8 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 	<div class="detail-container">
 	<div class="row">
 		<div class="col-sm-12">
-			<table class="table table-responsive">
+			<div class="table-container">
+			<table class="table table-responsive table-hover necrosaro-bg">
 				<thead>
 					<tr>
 						<th>Enemy</th>
@@ -3877,6 +3924,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -3909,6 +3957,7 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 				<br>
 				The setup should look something like this:<br>
 				<br>
+				<div class="table-container">
 				<table class="table-responsive">
 					<tr>
 						<td>Round 1:</td>
@@ -3934,7 +3983,9 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 						<td>Round 7-8:</td>
 						<td>Swap Brey for Lucia and corpse for Alena</td>
 					</tr>
-				</table><br>
+				</table>
+				</div>
+				<br>
 				<br>
 				Don't bother lowering his defense power on phases 1-3.  The Sword of Decimation only works on these phases 40% of the time, and you'll do enough damage with Bikill that it's not worth losing a turn to a failed Defense.<br>
 				<br>
@@ -4216,15 +4267,39 @@ Ranking numbers come from SRC: https://www.speedrun.com/dw4
 				}
 			});
 		});
+		
 		//Initialize tooltips
 		$('[data-toggle="tooltip"]').tooltip(); 
 		$('a[data-toggle="tooltip"]').click(function(){ return false; });
+		
+		//Move the Linguar tongue around
+		$('#linguar-tongue').css("top","92px");
+		$('#linguar-tongue').css("left","166px");
+		setInterval(function(){
+			if($("body").width() > 1000){
+				var tongueSlots = [[92,166],[104,366],[110,564],[104,776],[340,172],[340,370],[340,568],[340,766]];
+				var slot = tongueSlots[Math.floor(Math.random()*tongueSlots.length)];
+				$('#linguar-tongue').show();
+				$('#linguar-tongue').css("top",slot[0]);
+				$('#linguar-tongue').css("left",slot[1]);
+				setTimeout(function(){
+					$('#linguar-tongue').hide();
+				},2500);
+			}else{
+				$('#linguar-tongue').hide();
+			}
+		},3000);
+		//Hun:  92,166
+		//Ror: 104,366
+		//Viv: 110,564
+		//Sam: 104,776
+		//Lin: 340,172 -> 340,370 -> 340,568 -> 340,766
 	});
 </script>
 <style type="text/css">
 body{
 	background-color: #eeeeff;
-	background: url(/DW4Guide/images/sciencebackgroundimage.jpg);
+	background: url(/DW4Guide/images/sciencebackgroundimage2.jpg);
 	font-size:16px;
 }
 h3{
@@ -4234,6 +4309,7 @@ h3{
 	width:100%;
 	max-width: 1000px;
 	background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 	margin: 0 auto;
 	padding: 32px;
 	opacity: 1;
@@ -4243,7 +4319,7 @@ h3{
 }
 .step{
 	cursor:pointer;
-	padding-left:48	px;
+	padding: 2px 0px 2px 48px;
 }
 .step:hover{
 	background-color:#f3f3ff;
@@ -4268,6 +4344,7 @@ h3{
 	background-color: #fff9cc;
 	border-radius: 12px;
 	border: 1px solid #eecc33;
+	box-shadow: 0 4px 8px 0 rgba(100, 100, 0, 0.09), 0 6px 8px 0 rgba(100, 100, 0, 0.09);
 }
 .commentary{
 	margin: 8px 32px;
@@ -4275,6 +4352,7 @@ h3{
 	background-color: #ddddff;
 	border-radius: 12px;
 	border: 1px solid #7777ff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 100, 0.09), 0 6px 8px 0 rgba(0, 0, 100, 0.09);
 }
 .alt-strat{
 	margin: 8px 32px;
@@ -4282,6 +4360,7 @@ h3{
 	background-color: #99ff99;
 	border-radius: 12px;
 	border: 1px solid #00cc00;
+	box-shadow: 0 4px 8px 0 rgba(0, 100, 0, 0.09), 0 6px 8px 0 rgba(0, 100, 0, 0.09);
 }
 .aggro-strat{
 	margin: 8px 32px;
@@ -4289,6 +4368,7 @@ h3{
 	background-color: #ffdddd;
 	border-radius: 12px;
 	border: 1px solid #ff9999;
+	box-shadow: 0 4px 8px 0 rgba(100, 0, 0, 0.09), 0 6px 8px 0 rgba(100, 0, 0, 0.09);
 }
 .todo {
 	margin: 8px 32px;
@@ -4297,6 +4377,7 @@ h3{
 	border-radius: 12px;
 	border: 1px solid #99f;
 	color: #669;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09), 0 6px 8px 0 rgba(0, 0, 0, 0.09);
 }
 .centered-image-container{
 	text-align:center;
@@ -4307,8 +4388,11 @@ h3{
 	width:100%;
 	max-width:500px;
 }
-.table-responsive{
+.table-container{
 	margin: 8px 32px;
+}
+.details table td, .details table th{
+	border-color: black;
 }
 
 #headerSlideContainerContainer {
@@ -4327,6 +4411,7 @@ h3{
 	top:-100px;
 	opacity: 1;
 	z-index: 101;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 8px 0 rgba(0, 0, 0, 0.05);
 }
 #headerSlideContent {
 	background: #fff;
@@ -4342,6 +4427,104 @@ h3{
 }
 .expand-all-header{
 	font-size: 12px;
+}
+.saro-shadow-bg{
+	background-image: url("images/ShadowAndEyeballOutlinedFaded.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 348px;
+	//display:none;
+}
+.chameleon-humanoid-bg{
+	background-image: url("images/Ch2HumanoidFaded.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 572px;
+	//display:none;
+}
+.tournament-bg{
+	background-image: url("images/Ch2TournamentBossesFaded.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 774px;
+	//display:none;
+}
+.balzack4-bg{
+	background-image: url("images/Ch4BalzackTorsoFaded.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 476px;
+	//display:none;
+}
+.urchin-bg{
+	background-image: url("images/Ch5UrchinFaded.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 654px;
+}
+.lighthouse-bg{
+	background-image: url("images/Ch5LighthouseFightFaded.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 700px;
+}
+.balzack5-bg{
+	background-image: url("images/Ch5BalzackFaded.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 333px;
+}
+.radimvice-bg{
+	background-image: url("images/Ch5RadimviceFaded.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 360px;
+}
+.anderoug-bg{
+	background-image: url("images/Ch5AnderougFaded.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 210px;
+}
+.infernusshadow-bg{
+	background-image: url("images/Ch5InfernusShadowFaded.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 249px;
+}
+.esturk-bg{
+	background-image: url("images/Ch5EsturkFaded.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 330px;
+}
+.necrosaro-bg{
+	background-image: url("images/Ch5Necrosaro7Faded.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 886px;
+}
+.keeleon-bg{
+	background-image: url("images/Ch5KeeleonFaded.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 201px;
+}
+.bakor-bg{
+	background-image: url("images/Ch5BakorFaded.png");
+	background-repeat: repeat-x;
+	background-position: center;
+	background-size: 154px;
+}
+#linguar-tongue{
+	position:absolute;
+	background-image: url("images/LinguarTongueFaded.png");
+	//background-image: url("images/LinguarTongue.png");
+	//opacity: 0.1;
+	width: 30px;
+	height: 42px;
+	background-repeat: no-repeat;
+	background-size: 30px 42px;
 }
 </style>
 </body>
